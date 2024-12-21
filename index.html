@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Weather</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+            <a class="branding d-flex text-decoration-none" href="/">
+                <img src="image/logo@2x.png" alt="" class="logo" width="64" height="38">
+                <div class="site-content">
+                    <h1 class="site-title">Weather</h1>
+                    <small class="site-description">tagline goes here</small>
+                </div>
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href=" /">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#"> News</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link loginout" aria-current="page" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" aria-current="page" href="#">Photos</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" aria-current="page" href="/contact.html">Contact</a>
+            </li>
+            
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+      <section class="search bg-opacity-10">
+        <div class="layer">
+            <div class="container">
+        <div class="form-groub mx-auto mb-5">
+         <input class="search-input form-control text-white py-3 rounded-pill" type="search" placeholder="Find your location..." id="search">
+         <button class="btn search-btn px-4 bg-info text-white rounded-pill" type="submit">find</button>
+        </div>
+                <h2 class="small text-center fw-bold lg-screen position-relative"> 
+                <span class="day fs-3"></span><span class="fs-4 time"></span>
+                </h2>
+            </div>
+        </div>
+      </section>
+     <section class="data py-4text-white">
+    <div class=" container">
+        <div class="row forcast-container rounded-4 overflow-hidden" id="rowData">
+    </div>
+    </div>
+     </section>
+     <footer class="overflow-hidden">
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-8 pb-3">
+                    <div class="d-flex location-btn justify-content-center align-items-center ">
+                        <input type="text" class="form-control py-3 px-3" placeholder="Enter your email to subscribe..."
+                            id="search">
+                        <input class="find-button px-5 btn text-white" type="button" value="Find">
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="d-flex socials">
+                        <a class=" text-nowrap ms-1" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class=" text-nowrap ms-1" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a class=" text-nowrap ms-1" href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a class=" text-nowrap ms-1" href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+
+ <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/index.js"></script>
+</body>
+</html>
